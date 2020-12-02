@@ -26,10 +26,11 @@ body {
 
 .header nav {
     padding-top: 15px;
-    margin-right: 20px;
+    margin-right: 10px;
+    margin-left: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .header nav ul {
@@ -163,29 +164,47 @@ p {
 
 .search-engine-optimization img {
     max-height: 200px;
+    float: left
 }
 
 .online-reputation-management img {
     max-height: 200px;
+    float: right
 }
 
 .social-media-marketing img {
     max-height: 200px;
+    float: left
 }
 
 .search-engine-optimization h2 {
-    margin-bottom: 20px;
+    margin-bottom: 60px;
     font-size: 36px;
 }
 
 .online-reputation-management h2 {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     font-size: 36px;
 }
 
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
+}
+
+.search-engine-optimization p {
+    display: flex; 
+    align-items: center; 
+}
+
+.online-reputation-management p {
+    display: flex; 
+    align-items: center; 
+}
+
+.social-media-marketing p {
+    display: flex; 
+    align-items: center; 
 }
 
 .footer {
